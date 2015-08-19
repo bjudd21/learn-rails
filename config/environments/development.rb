@@ -37,9 +37,9 @@ Rails.application.configure do
     password: Rails.application.secrets.email_provider_password
   }
 
-  #Send mail in developement mode?
+  #Send mail in development mode?
   config.action_mailer.perform_deliveries = true
-  
+
 
   #ActionMailer config
   config.action_mailer.default_url_options = { :host => 'localhost:3000'}
